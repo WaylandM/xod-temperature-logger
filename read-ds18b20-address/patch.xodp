@@ -1,0 +1,213 @@
+{
+  "comments": [
+    {
+      "content": "The get-address node has index (IDX) set to 0, so it will read the address of the first device on the bus.",
+      "id": "rkTNrFUq33",
+      "position": {
+        "units": "slots",
+        "x": 12,
+        "y": 2
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 7
+      }
+    },
+    {
+      "content": "D0 is equivalent to GPIO0 (labelled D3 on ESP8266 board).",
+      "id": "ry0VBY8533",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 4
+      }
+    }
+  ],
+  "links": [
+    {
+      "id": "B1UVStI5nn",
+      "input": {
+        "nodeId": "HkXNBK8qnh",
+        "pinKey": "Bk4WgcUVD"
+      },
+      "output": {
+        "nodeId": "r1bVHF8532",
+        "pinKey": "HJLA5rUEv"
+      }
+    },
+    {
+      "id": "rJv4StU5hh",
+      "input": {
+        "nodeId": "ByE4rK8q23",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "HkXNBK8qnh",
+        "pinKey": "BJYreAvNw"
+      }
+    },
+    {
+      "id": "rk_ErK8923",
+      "input": {
+        "nodeId": "r1f4HKL532",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "ByErFUcnh",
+        "pinKey": "SkFj94BNv"
+      }
+    },
+    {
+      "id": "BkFNSYIqh2",
+      "input": {
+        "nodeId": "ByErFUcnh",
+        "pinKey": "rJQYqEHVP"
+      },
+      "output": {
+        "nodeId": "r1bVHF8532",
+        "pinKey": "HJLA5rUEv"
+      }
+    },
+    {
+      "id": "S154rFU5n2",
+      "input": {
+        "nodeId": "SJxEHFIcnn",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "ByErFUcnh",
+        "pinKey": "rybnlrSVw"
+      }
+    },
+    {
+      "id": "ByjVBK8ch2",
+      "input": {
+        "nodeId": "HkXNBK8qnh",
+        "pinKey": "Syi0b9I4v"
+      },
+      "output": {
+        "nodeId": "ByErFUcnh",
+        "pinKey": "HyCBxBB4v"
+      }
+    },
+    {
+      "id": "S1OLYLqnn",
+      "input": {
+        "nodeId": "ByErFUcnh",
+        "pinKey": "H1R-erSNP"
+      },
+      "output": {
+        "nodeId": "SyXItIc32",
+        "pinKey": "Bk4gU0drwJ-"
+      }
+    },
+    {
+      "id": "ryVPKL92n",
+      "input": {
+        "nodeId": "SyXItIc32",
+        "pinKey": "SkSuD6LMb"
+      },
+      "output": {
+        "nodeId": "ByePYU932",
+        "pinKey": "ryVmUAOrvkb"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "boundLiterals": {
+        "H1R-erSNP": "On Boot"
+      },
+      "id": "ByErFUcnh",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 2
+      },
+      "type": "wayland/ds18b20/get-device-count"
+    },
+    {
+      "id": "SJxEHFIcnn",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 3
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "boundLiterals": {
+        "SJYOqSIND": "D0"
+      },
+      "id": "r1bVHF8532",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 1
+      },
+      "type": "wayland/ds18b20/ds18b20-bus"
+    },
+    {
+      "id": "r1f4HKL532",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 3
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "boundLiterals": {
+        "Syi0b9I4v": "On Boot"
+      },
+      "id": "HkXNBK8qnh",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": 2
+      },
+      "type": "wayland/ds18b20/get-address"
+    },
+    {
+      "id": "ByE4rK8q23",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": 3
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 5
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "boundLiterals": {
+        "Skre8ROSv1-": "1"
+      },
+      "id": "SyXItIc32",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 1
+      },
+      "type": "xod/core/delay"
+    },
+    {
+      "id": "ByePYU932",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 0
+      },
+      "type": "xod/core/boot"
+    }
+  ]
+}

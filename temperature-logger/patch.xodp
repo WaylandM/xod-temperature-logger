@@ -1,0 +1,29 @@
+{
+  "comments": [
+    {
+      "content": "# Wiring\n\n* GND - GND\n* VCC - 3.3V\n* CS - D8\n* MOSI - D7\n* SCK - D5\n* MISO - D6\n",
+      "id": "SJTSac96n",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": 1
+      },
+      "size": {
+        "height": 2,
+        "units": "slots",
+        "width": 5
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "rJcJDc5ah",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "xod/common-hardware/sd-log"
+    }
+  ]
+}
