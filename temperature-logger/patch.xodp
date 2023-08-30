@@ -97,6 +97,20 @@
         "units": "slots",
         "width": 2
       }
+    },
+    {
+      "content": "Shutdown WiFi on ESP8266 to reduce energy consumption.",
+      "id": "rJ78O-663",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": -1
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 4
+      }
     }
   ],
   "links": [
@@ -885,6 +899,15 @@
         "y": 6
       },
       "type": "xod/patch-nodes/from-bus"
+    },
+    {
+      "id": "SyoB_b6ah",
+      "position": {
+        "units": "slots",
+        "x": -1,
+        "y": -1
+      },
+      "type": "@/shutdown-wifi"
     }
   ]
 }

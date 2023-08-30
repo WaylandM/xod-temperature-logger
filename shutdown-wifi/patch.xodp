@@ -1,0 +1,28 @@
+{
+  "description": "Shutdown WiFi on ESP8266 to save energy.",
+  "nodes": [
+    {
+      "id": "HkirDbT63",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "On Boot"
+      },
+      "description": "Pulse to shutdown wifi.",
+      "id": "SJV8DbTan",
+      "label": "OFF",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    }
+  ]
+}
