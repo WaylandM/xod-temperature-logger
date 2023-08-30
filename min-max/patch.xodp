@@ -234,6 +234,9 @@
       "type": "xod/patch-nodes/input-number"
     },
     {
+      "boundLiterals": {
+        "__out__": "On Boot"
+      },
       "description": "Initialize",
       "id": "HJ3JmJpTh",
       "label": "INIT",

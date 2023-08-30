@@ -1,2 +1,380 @@
 {
+  "links": [
+    {
+      "id": "rJ5m1eap3",
+      "input": {
+        "nodeId": "r1IQyga6h",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "SkdV3Jpa2",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "Bkxmlx6ah",
+      "input": {
+        "nodeId": "SkEMgxT62",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "SkFt1gp63",
+        "pinKey": "rksccsp-W"
+      }
+    },
+    {
+      "id": "SJH8vgepan",
+      "input": {
+        "nodeId": "rkf8wgeaT2",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "Hk-LDgxTah",
+        "pinKey": "rksccsp-W"
+      }
+    },
+    {
+      "id": "B1QkWea6h",
+      "input": {
+        "nodeId": "rJRzhkp6h",
+        "pinKey": "B1-67xBy7B"
+      },
+      "output": {
+        "nodeId": "SyD41g6p2",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "S1VJbxaa3",
+      "input": {
+        "nodeId": "rJRzhkp6h",
+        "pinKey": "r1GaXeSy7B"
+      },
+      "output": {
+        "nodeId": "HyEHylaa2",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "SyBkblaT3",
+      "input": {
+        "nodeId": "rJRzhkp6h",
+        "pinKey": "HkGVlSkmB"
+      },
+      "output": {
+        "nodeId": "SJFmxxaph",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "rkU1Wg6pn",
+      "input": {
+        "nodeId": "rJRzhkp6h",
+        "pinKey": "SyXEgBy7B"
+      },
+      "output": {
+        "nodeId": "BksheeTph",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "Hk2rmlaa3",
+      "input": {
+        "nodeId": "ByOmRyTan",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "BJDrXgT6n",
+        "pinKey": "B1x2RV3eZ"
+      }
+    },
+    {
+      "id": "B1AzHg6Th",
+      "input": {
+        "nodeId": "SkFt1gp63",
+        "pinKey": "BkeKcj6ZZ"
+      },
+      "output": {
+        "nodeId": "B17B2JTp3",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "B1lmHea63",
+      "input": {
+        "nodeId": "SkFt1gp63",
+        "pinKey": "BkeKcj6ZZ-$2"
+      },
+      "output": {
+        "nodeId": "rksH3yp63",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "HJIYUlaa2",
+      "input": {
+        "nodeId": "Hk-LDgxTah",
+        "pinKey": "Hkqu9oaWb"
+      },
+      "output": {
+        "nodeId": "HkVH3kp63",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "HJMqIxaan",
+      "input": {
+        "nodeId": "Hk-LDgxTah",
+        "pinKey": "BkeKcj6ZZ-$1"
+      },
+      "output": {
+        "nodeId": "BJ9H3Jpph",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "H1mjUlp62",
+      "input": {
+        "nodeId": "Hk-LDgxTah",
+        "pinKey": "BkeKcj6ZZ-$5"
+      },
+      "output": {
+        "nodeId": "rJhH3J6ph",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "SyNsUx66h",
+      "input": {
+        "nodeId": "Hk-LDgxTah",
+        "pinKey": "BkeKcj6ZZ-$3"
+      },
+      "output": {
+        "nodeId": "H13oHn1ap3",
+        "pinKey": "__out__"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "boundLiterals": {
+        "B1-67xBy7B": "\"Date / time\"",
+        "HkGVlSkmB": "\"     MIN  MAX     MIN  MAX\"",
+        "SyXEgBy7B": "\"10.1 15.2 14.8 21.8 33.0  28.0\"",
+        "r1GaXeSy7B": "\"Brown     Green\""
+      },
+      "id": "rJRzhkp6h",
+      "position": {
+        "units": "slots",
+        "x": -13,
+        "y": 5
+      },
+      "type": "xod-dev/text-lcd/text-lcd-i2c-20x4"
+    },
+    {
+      "description": "Datetime string",
+      "id": "SkdV3Jpa2",
+      "label": "DTS",
+      "position": {
+        "units": "slots",
+        "x": -13,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/input-string"
+    },
+    {
+      "description": "Current temperature measured using brown probe.",
+      "id": "B17B2JTp3",
+      "label": "BTemp",
+      "position": {
+        "units": "slots",
+        "x": -5,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/input-string"
+    },
+    {
+      "description": "Minimum temperature recorded by brown probe.",
+      "id": "HkVH3kp63",
+      "label": "BMin",
+      "position": {
+        "units": "slots",
+        "x": -1,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/input-string"
+    },
+    {
+      "description": "Maximum temperature recorded by brown probe.",
+      "id": "BJ9H3Jpph",
+      "label": "BMax",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/input-string"
+    },
+    {
+      "description": "Current temperature measured by green probe.",
+      "id": "rksH3yp63",
+      "label": "GTemp",
+      "position": {
+        "units": "slots",
+        "x": -3,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/input-string"
+    },
+    {
+      "description": "Minimum temperature recorded by green probe.",
+      "id": "H13oHn1ap3",
+      "label": "GMin",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/input-string"
+    },
+    {
+      "description": "Maximum temperature recorded by green probe.",
+      "id": "rJhH3J6ph",
+      "label": "GMax",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/input-string"
+    },
+    {
+      "id": "ByOmRyTan",
+      "label": "Line2",
+      "position": {
+        "units": "slots",
+        "x": -11,
+        "y": 3
+      },
+      "type": "xod/patch-nodes/to-bus"
+    },
+    {
+      "id": "r1IQyga6h",
+      "label": "Line1",
+      "position": {
+        "units": "slots",
+        "x": -13,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/to-bus"
+    },
+    {
+      "id": "SyD41g6p2",
+      "label": "Line1",
+      "position": {
+        "units": "slots",
+        "x": -11,
+        "y": 4
+      },
+      "type": "xod/patch-nodes/from-bus"
+    },
+    {
+      "id": "HyEHylaa2",
+      "label": "Line2",
+      "position": {
+        "units": "slots",
+        "x": -10,
+        "y": 4
+      },
+      "type": "xod/patch-nodes/from-bus"
+    },
+    {
+      "arityLevel": 3,
+      "boundLiterals": {
+        "BkeKcj6ZZ-$1": "\"     \"",
+        "Hkqu9oaWb": "\"    \""
+      },
+      "id": "SkFt1gp63",
+      "position": {
+        "units": "slots",
+        "x": -6,
+        "y": 2
+      },
+      "type": "xod/core/concat"
+    },
+    {
+      "id": "SkEMgxT62",
+      "label": "Line3",
+      "position": {
+        "units": "slots",
+        "x": -6,
+        "y": 3
+      },
+      "type": "xod/patch-nodes/to-bus"
+    },
+    {
+      "id": "SJFmxxaph",
+      "label": "Line3",
+      "position": {
+        "units": "slots",
+        "x": -9,
+        "y": 4
+      },
+      "type": "xod/patch-nodes/from-bus"
+    },
+    {
+      "arityLevel": 6,
+      "boundLiterals": {
+        "BkeKcj6ZZ": "\"-\"",
+        "BkeKcj6ZZ-$1": "\" min: \"",
+        "BkeKcj6ZZ-$2": "\"  \"",
+        "BkeKcj6ZZ-$4": "\"-\"",
+        "Hkqu9oaWb": "\"min: \""
+      },
+      "id": "Hk-LDgxTah",
+      "position": {
+        "units": "slots",
+        "x": -1,
+        "y": 2
+      },
+      "type": "xod/core/concat"
+    },
+    {
+      "id": "rkf8wgeaT2",
+      "label": "Line4",
+      "position": {
+        "units": "slots",
+        "x": -1,
+        "y": 3
+      },
+      "type": "xod/patch-nodes/to-bus"
+    },
+    {
+      "id": "BksheeTph",
+      "label": "Line4",
+      "position": {
+        "units": "slots",
+        "x": -8,
+        "y": 4
+      },
+      "type": "xod/patch-nodes/from-bus"
+    },
+    {
+      "boundLiterals": {
+        "B1x2RV3eZ": "\"   Brown    Green\""
+      },
+      "id": "BJDrXgT6n",
+      "position": {
+        "units": "slots",
+        "x": -11,
+        "y": 2
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 4
+      },
+      "type": "xod/core/constant-string"
+    }
+  ]
 }
