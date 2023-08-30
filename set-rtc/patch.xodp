@@ -1,0 +1,210 @@
+{
+  "links": [
+    {
+      "id": "SytMMLR3T3",
+      "input": {
+        "nodeId": "SygMzICha2",
+        "pinKey": "SJsba7HDQ"
+      },
+      "output": {
+        "nodeId": "S1zf8Cnah",
+        "pinKey": "S1FPmmHD7"
+      }
+    },
+    {
+      "id": "Bk5MGIR263",
+      "input": {
+        "nodeId": "SkbzfLCn6n",
+        "pinKey": "ryjoteXwm"
+      },
+      "output": {
+        "nodeId": "SyGGM8Rhp2",
+        "pinKey": "ByfGSDjQE"
+      }
+    },
+    {
+      "id": "SysMGUCnph",
+      "input": {
+        "nodeId": "SkbzfLCn6n",
+        "pinKey": "r1f2FeXP7"
+      },
+      "output": {
+        "nodeId": "B1XGGUA2Tn",
+        "pinKey": "ByfGSDjQE"
+      }
+    },
+    {
+      "id": "H1hfzLC3an",
+      "input": {
+        "nodeId": "SkbzfLCn6n",
+        "pinKey": "HJgzhKxmvm"
+      },
+      "output": {
+        "nodeId": "B1Vfz8RnT2",
+        "pinKey": "ByfGSDjQE"
+      }
+    },
+    {
+      "id": "B1TfGLRhph",
+      "input": {
+        "nodeId": "SkbzfLCn6n",
+        "pinKey": "S1-M2YemPQ"
+      },
+      "output": {
+        "nodeId": "SkBfMLRnp3",
+        "pinKey": "ByfGSDjQE"
+      }
+    },
+    {
+      "id": "ByCfzIR3T2",
+      "input": {
+        "nodeId": "SkbzfLCn6n",
+        "pinKey": "SkQnYg7wQ"
+      },
+      "output": {
+        "nodeId": "SJUMz8C2an",
+        "pinKey": "ByfGSDjQE"
+      }
+    },
+    {
+      "id": "HkklfGIC2a2",
+      "input": {
+        "nodeId": "SkbzfLCn6n",
+        "pinKey": "HygQhYlQw7"
+      },
+      "output": {
+        "nodeId": "SJPzzLCh6h",
+        "pinKey": "ByfGSDjQE"
+      }
+    },
+    {
+      "id": "Syelzz8Cnah",
+      "input": {
+        "nodeId": "SygMzICha2",
+        "pinKey": "ByDPwJxu7"
+      },
+      "output": {
+        "nodeId": "SkbzfLCn6n",
+        "pinKey": "r1ZqKlXPX"
+      }
+    },
+    {
+      "id": "r1-lMzIA2p3",
+      "input": {
+        "nodeId": "SygMzICha2",
+        "pinKey": "SJzITmrPQ"
+      },
+      "output": {
+        "nodeId": "r1uMfL0hpn",
+        "pinKey": "Bkf4BDsmV"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "S1zf8Cnah",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod-dev/ds-rtc/rtc-device"
+    },
+    {
+      "id": "SygMzICha2",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 2
+      },
+      "type": "xod-dev/ds-rtc/write"
+    },
+    {
+      "id": "SkbzfLCn6n",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 1
+      },
+      "type": "xod/datetime/datetime"
+    },
+    {
+      "boundLiterals": {
+        "ByfGSDjQE": "2023"
+      },
+      "id": "SyGGM8Rhp2",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 0
+      },
+      "type": "xod/debug/tweak-number"
+    },
+    {
+      "boundLiterals": {
+        "ByfGSDjQE": "8"
+      },
+      "id": "B1XGGUA2Tn",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 0
+      },
+      "type": "xod/debug/tweak-number"
+    },
+    {
+      "boundLiterals": {
+        "ByfGSDjQE": "30"
+      },
+      "id": "B1Vfz8RnT2",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 0
+      },
+      "type": "xod/debug/tweak-number"
+    },
+    {
+      "boundLiterals": {
+        "ByfGSDjQE": "15"
+      },
+      "id": "SkBfMLRnp3",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 0
+      },
+      "type": "xod/debug/tweak-number"
+    },
+    {
+      "boundLiterals": {
+        "ByfGSDjQE": "45"
+      },
+      "id": "SJUMz8C2an",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 0
+      },
+      "type": "xod/debug/tweak-number"
+    },
+    {
+      "id": "SJPzzLCh6h",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": 0
+      },
+      "type": "xod/debug/tweak-number"
+    },
+    {
+      "id": "r1uMfL0hpn",
+      "position": {
+        "units": "slots",
+        "x": 9,
+        "y": 0
+      },
+      "type": "xod/debug/tweak-pulse"
+    }
+  ]
+}

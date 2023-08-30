@@ -1,0 +1,132 @@
+{
+  "links": [
+    {
+      "id": "B1jBzKJT6n",
+      "input": {
+        "nodeId": "H13sOkTp3",
+        "pinKey": "BJK0yEglf"
+      },
+      "output": {
+        "nodeId": "BksWFyaan",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "HJpWcJTT3",
+      "input": {
+        "nodeId": "BJUZckpTh",
+        "pinKey": "Hkqu9oaWb"
+      },
+      "output": {
+        "nodeId": "rkdtK1aan",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "BJZG5J66n",
+      "input": {
+        "nodeId": "BJUZckpTh",
+        "pinKey": "BkeKcj6ZZ-$3"
+      },
+      "output": {
+        "nodeId": "ryz6tkaTh",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "rJ7M5kaah",
+      "input": {
+        "nodeId": "BJUZckpTh",
+        "pinKey": "BkeKcj6ZZ-$1"
+      },
+      "output": {
+        "nodeId": "Bky6YJTan",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "rkH7qJTa2",
+      "input": {
+        "nodeId": "H13sOkTp3",
+        "pinKey": "SJ1CkNggf"
+      },
+      "output": {
+        "nodeId": "BJUZckpTh",
+        "pinKey": "rksccsp-W"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "boundLiterals": {
+        "BJGhy4lgG": "D15",
+        "rJbTJVxxM": "\"log.csv\""
+      },
+      "id": "H13sOkTp3",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 3
+      },
+      "type": "xod/common-hardware/sd-log"
+    },
+    {
+      "description": "Perform file open, write, flush, close cycle.",
+      "id": "BksWFyaan",
+      "label": "W",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "Datetime string.",
+      "id": "rkdtK1aan",
+      "label": "DTS",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/input-string"
+    },
+    {
+      "description": "Temperature recorded by the brown probe as a string.",
+      "id": "Bky6YJTan",
+      "label": "BTemp",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/input-string"
+    },
+    {
+      "description": "Temperature recorded by the green probe as a string.",
+      "id": "ryz6tkaTh",
+      "label": "GTemp",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/input-string"
+    },
+    {
+      "arityLevel": 4,
+      "boundLiterals": {
+        "BkeKcj6ZZ": "\",\"",
+        "BkeKcj6ZZ-$2": "\",\""
+      },
+      "id": "BJUZckpTh",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 2
+      },
+      "type": "xod/core/concat"
+    }
+  ]
+}

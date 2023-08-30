@@ -1,0 +1,63 @@
+{
+  "links": [
+    {
+      "id": "S1KUI0262",
+      "input": {
+        "nodeId": "Bk4LL02a2",
+        "pinKey": "Hy_D4G0JOX"
+      },
+      "output": {
+        "nodeId": "SJi4I0hTn",
+        "pinKey": "BklE_1edQ"
+      }
+    },
+    {
+      "id": "ryEvU0npn",
+      "input": {
+        "nodeId": "HkbDUA362",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "Bk4LL02a2",
+        "pinKey": "BkvDEzR1Om"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "boundLiterals": {
+        "Bk1C_4rPQ": "Continuously"
+      },
+      "id": "SJi4I0hTn",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 1
+      },
+      "type": "xod-dev/ds-rtc/rtc"
+    },
+    {
+      "id": "Bk4LL02a2",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "xod/datetime/format-timestamp"
+    },
+    {
+      "id": "HkbDUA362",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 3
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 6
+      },
+      "type": "xod/debug/watch"
+    }
+  ]
+}
