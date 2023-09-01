@@ -1,4 +1,20 @@
 {
+  "comments": [
+    {
+      "content": "# SD module wiring\n\n* GND - GND\n* VCC - VIN (5V)\n* CS - D8 (GPIO15)\n* MOSI - D7\n* SCK - D5\n* MISO - D6\n",
+      "id": "HJ5Z3-ATn",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": 2
+      },
+      "size": {
+        "height": 2,
+        "units": "slots",
+        "width": 4
+      }
+    }
+  ],
   "links": [
     {
       "id": "B1jBzKJT6n",

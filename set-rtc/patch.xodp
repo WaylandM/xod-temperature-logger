@@ -98,6 +98,61 @@
         "nodeId": "r1uMfL0hpn",
         "pinKey": "Bkf4BDsmV"
       }
+    },
+    {
+      "id": "By-HxNg0pn",
+      "input": {
+        "nodeId": "BkgHeVxAa2",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "HkBxElRTh",
+        "pinKey": "BkvDEzR1Om"
+      }
+    },
+    {
+      "id": "rJ5lVeCph",
+      "input": {
+        "nodeId": "HkBxElRTh",
+        "pinKey": "Hy_D4G0JOX"
+      },
+      "output": {
+        "nodeId": "HyfJEeCan",
+        "pinKey": "B1ZM_yx_7"
+      }
+    },
+    {
+      "id": "H1VZEeA6n",
+      "input": {
+        "nodeId": "HyfJEeCan",
+        "pinKey": "rytlTcNErP7"
+      },
+      "output": {
+        "nodeId": "H1gbEl0T2",
+        "pinKey": "HJU8CE2lW"
+      }
+    },
+    {
+      "id": "BkVfVeAa2",
+      "input": {
+        "nodeId": "rJbfVeAa3",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "S1zf8Cnah",
+        "pinKey": "S1FPmmHD7"
+      }
+    },
+    {
+      "id": "H1jpQExA62",
+      "input": {
+        "nodeId": "HyfJEeCan",
+        "pinKey": "HJKONEBPX"
+      },
+      "output": {
+        "nodeId": "HyB7Ng0ph",
+        "pinKey": "__out__"
+      }
     }
   ],
   "nodes": [
@@ -142,7 +197,7 @@
     },
     {
       "boundLiterals": {
-        "ByfGSDjQE": "8"
+        "ByfGSDjQE": "9"
       },
       "id": "B1XGGUA2Tn",
       "position": {
@@ -154,7 +209,7 @@
     },
     {
       "boundLiterals": {
-        "ByfGSDjQE": "30"
+        "ByfGSDjQE": "1"
       },
       "id": "B1Vfz8RnT2",
       "position": {
@@ -166,7 +221,7 @@
     },
     {
       "boundLiterals": {
-        "ByfGSDjQE": "15"
+        "ByfGSDjQE": "01"
       },
       "id": "SkBfMLRnp3",
       "position": {
@@ -178,7 +233,7 @@
     },
     {
       "boundLiterals": {
-        "ByfGSDjQE": "45"
+        "ByfGSDjQE": "25"
       },
       "id": "SJUMz8C2an",
       "position": {
@@ -205,6 +260,67 @@
         "y": 0
       },
       "type": "xod/debug/tweak-pulse"
+    },
+    {
+      "id": "HyfJEeCan",
+      "position": {
+        "units": "slots",
+        "x": 11,
+        "y": 1
+      },
+      "type": "xod-dev/ds-rtc/read"
+    },
+    {
+      "id": "HkBxElRTh",
+      "position": {
+        "units": "slots",
+        "x": 11,
+        "y": 2
+      },
+      "type": "xod/datetime/format-timestamp"
+    },
+    {
+      "id": "BkgHeVxAa2",
+      "position": {
+        "units": "slots",
+        "x": 11,
+        "y": 3
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 6
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "H1gbEl0T2",
+      "position": {
+        "units": "slots",
+        "x": 12,
+        "y": 0
+      },
+      "type": "xod/core/clock"
+    },
+    {
+      "id": "rJbfVeAa3",
+      "label": "RTC",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/to-bus"
+    },
+    {
+      "id": "HyB7Ng0ph",
+      "label": "RTC",
+      "position": {
+        "units": "slots",
+        "x": 11,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/from-bus"
     }
   ]
 }
