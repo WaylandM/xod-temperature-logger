@@ -1,2 +1,5 @@
-# xod-temperature-logger
-Library of XOD patches for temperature logger.
+# XOD Temperature Logger
+Library of XOD patches for a temperature logger.
+
+<img src="https://raw.githubusercontent.com/WaylandM/xod-temperature-logger/main/images/three_loggers.jpg" width="550" alt="Photo of three data loggers">
+
